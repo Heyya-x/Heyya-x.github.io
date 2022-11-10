@@ -14,13 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Heyya's Blog
-name: Heyya's Blog
 email:
-url: https://blog.kaijunzhu.com
 description: >- # this means to ignore newlines until "baseurl:"
   Hi here, I'm Heyya!
-twitter_username: @Heyya_Ocean
-github_username: Heyya-x
+twitter_username: 
+github_username:
 minimal_mistakes_skin: dark
 search: true
 
@@ -107,7 +105,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      mathjax: true
 
 category_archive:
   type: liquid
