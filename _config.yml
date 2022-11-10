@@ -61,7 +61,7 @@ header:
 
 author:
   name   : "Heyya"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/biophoto.jpg"
   bio    : "Hi here, I'm Heyya."
   links:
     - label: "Website"
