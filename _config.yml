@@ -16,10 +16,10 @@
 title: Heyya's Blog
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Hi here, I'm Heyya!
+  "Hi here, I'm Heyya!"
 twitter_username: 
 github_username:
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: "dark"
 search: true
 
 # Build settings
