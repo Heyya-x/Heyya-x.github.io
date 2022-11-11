@@ -21,10 +21,13 @@ github_username: "Heyya-x"
 minimal_mistakes_skin: "dark"
 search: true
 
+# logo: """
+
 # Build settings
 markdown: kramdown
 
-remote_theme: mmistakes/minimal-mistakes
+# remote_theme: mmistakes/minimal-mistakes
+remote_theme: Heyya-x/minimal-mistakes
 
 # Outputting
 permalink: /:categories/:title/
@@ -57,7 +60,7 @@ plugins:
   - jekyll-include-cache
 
 header:
-  overlay_image: "/assets/images/header.jpeg"
+  overlay_image: "/assets/images/header.png"
 
 author:
   name   : "Heyya"
@@ -77,17 +80,17 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/kaijunzhu_/"
 
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/Heyya_Ocean"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/Heyya-x"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/kaijunzhu_/"
+# footer:
+#   links:
+#     - label: "Twitter"
+#       icon: "fab fa-fw fa-twitter-square"
+#       url: "https://twitter.com/Heyya_Ocean"
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       url: "https://github.com/Heyya-x"
+#     - label: "Instagram"
+#       icon: "fab fa-fw fa-instagram"
+#       url: "https://www.instagram.com/kaijunzhu_/"
 
 defaults:
   # _posts
@@ -96,20 +99,21 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
       related: true
-  # _pages
+      show_date: true
+      toc: true
+      toc_sticky: true
+      # date_format: "%Y-%m-%d"
+  # _pages # home page
   - scope:
       path: "_pages"
       type: pages
     values:
-      layout: single
-      show_date: true
-      author_profile: true
-      mathjax: true
+      layout: post
 
 category_archive:
   type: liquid
@@ -120,6 +124,6 @@ tag_archive:
 atom_feed:
   hide: true
 
-breadcrumbs: true
-breadcrumb_home_label: "Home"
-breadcrumb_separator: "/"
+# breadcrumbs: true
+# breadcrumb_home_label: "Home"
+# breadcrumb_separator: "/"
