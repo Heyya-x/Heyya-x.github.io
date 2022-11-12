@@ -93,9 +93,10 @@ $h-size-6: 1em !default; // ~16px
 $serif: "Sorts Mill Goudy", -apple-system, Georgia !default;// Georgia, Times, serif !default;
 $sans-serif: "Open Sans", "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
  //-apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+$sans-serif-narrow: "Open Sans", "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$monospace: "Monaco", "Consolas", "Lucida Console", monospace !default;
 
-$global-font-family: $serif;
+$global-font-family: $sans-serif;
 $header-font-family: $serif;
 
 $large: 1024px !default;
@@ -114,6 +115,23 @@ article.page {
     width: 100%;
     padding-right: $right-sidebar-width;
   }
+}
+
+.archive {
+  font-size: $type-size-4;
+  font-family: $serif;
+}
+
+.archive__item a {
+  font-family: $serif;
+}
+
+.archive__item-excerpt {
+  font-family: $sans-serif;
+}
+
+.u-url {
+  font-size: $type-size-5;
 }
 
 // .page-title {

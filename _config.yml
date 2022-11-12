@@ -60,7 +60,7 @@ plugins:
   - jekyll-include-cache
 
 header:
-  overlay_image: "/assets/images/header.png"
+  overlay_image: "/assets/images/big-sur-road.jpg"
 
 author:
   name   : "Heyya"
@@ -113,7 +113,7 @@ defaults:
       path: "_pages"
       type: pages
     values:
-      layout: post
+      layout: single
 
 category_archive:
   type: liquid
