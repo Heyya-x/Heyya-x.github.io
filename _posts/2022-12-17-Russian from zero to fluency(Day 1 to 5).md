@@ -1,3 +1,8 @@
+---
+title: Russian from zero to fluency
+date: 2022-12-17
+tags: Russian
+---
 # Day 1
 
 ## Alphabet
@@ -39,35 +44,35 @@
 
 #### Personal pronouns
 
-Я - I
+- Я - I
 
-ТЫ / Вы - you
+- ТЫ / Вы - you
 
-ОН - he
+- ОН - he
 
-ОНА - she
+- ОНА - she
 
-ОНО - it
+- ОНО - it
 
 #### word(Слово)
 
-Это кот.
+- Это кот.
 
-Я учитель. - I teacher.
+- Я учитель. - I teacher.
 
-Доктор - doctor 
+- Доктор - doctor 
 
-Инженер - engineer
+- Инженер - engineer
 
-Баскетбол - basketball
+- Баскетбол - basketball
 
-Баскетболист - basketball player
+- Баскетболист - basketball player
 
-Футболист - football player
+- Футболист - football player
 
-Волейболист - volleyball player
+- Волейболист - volleyball player
 
-Хоккеист - hockey player
+- Хоккеист - hockey player
 
 
 
@@ -97,30 +102,35 @@
 
 1. What ?
 
-- Ба Бя
+   - Ба Бя
 
-- Ма Мя
 
-- Мать ~ Мять
+   - Ма Мя
+
+
+   - Мать ~ Мять
+
 
 2. Where ?
 
-- The letter before hard letter "ъ" and soft letter "ь"
+   - The letter before hard letter "ъ" and soft letter "ь"
 
-- The letter before "я е ё  ю и" should be soft
 
-  e.g.
+   - The letter before "я е ё  ю и" should be soft
 
-  - Письмо -  leter
+     e.g.
 
-  - Житъ - live
+     - Письмо -  leter
 
-  - Цирк - Circus
-  - Чубакка 
+     - Житъ - live
+
+     - Цирк - Circus
+     - Чубакка 
+
 
 3. How ?
+   - 舌头上抬，用类似"И"的舌头位置发出相应的软音
 
-- 舌头上抬，用类似"И"的舌头位置发出相应的软音
 
 ![image-20221219170225921](/assets/images/image-20221219170225921.png)
 
@@ -128,17 +138,25 @@
 
 1. If "о" is unstressed, it turns to like "а", for example:
 
-- М<u>о</u>сква (Moscow)
-- Лонд<u>о</u>н (Londen)
-- М<u>о</u>л<u>о</u>ко (Milk)
+   - М<u>о</u>сква (Moscow)
+
+   - Лонд<u>о</u>н (Londen)
+
+   - М<u>о</u>л<u>о</u>ко (Milk)
+
 
 2. If "е" and "я" is unstressed, it turns to like "и", for example:
 
-- С**<u>е</u>**стра (Sister)
-- М**<u>е</u>**чта (Dream)
-- **<u>Я</u>**йцо (Egg)
-- За**<u>я</u>**ц (Rabbit)
-- **<u>Я</u>**майка (Jamaican)
+   - С**<u>е</u>**стра (Sister)
+
+   - М**<u>е</u>**чта (Dream)
+
+   - **<u>Я</u>**йцо (Egg)
+
+   - За**<u>я</u>**ц (Rabbit)
+
+   - **<u>Я</u>**майка (Jamaican)
+
 
 ### Voiced and unvoiced
 
@@ -181,27 +199,29 @@
 
 ###  Vocabulary
 
- Здравствуйте - Hello
+- Здравствуйте - Hello
 
-Превет - Hi
+- Превет - Hi
 
-Доброе   утро -  Good morning
+- Доброе   утро -  Good morning
 
-Добрый день - Good afternoon/Good day
+- Добрый день - Good afternoon/Good day
 
-Добрый вечер - Good evening
+- Добрый вечер - Good evening
 
-Хорошо - Good
+- Хорошо - Good
 
-Плохо - Bad
+- Плохо - Bad
 
-Нормально - Ok
+- Нормально - Ok
 
-До свидания - Goodbye
+- До свидания - Goodbye
 
-Пока - bye
+- Пока - bye
 
-- <a href="http://realrussicanclub.com" target="_blank">Homework</a>
+### Homework
+
+- [Homework](http://realrussianclub.com)
 
 ### 补充（引用自<a href="https://zh.wikipedia.org/wiki/俄语字母">wikipedia</a>）
 
@@ -388,7 +408,7 @@
 
 ### Кот Бладимур
 
-![image-20221221001412449](./assets/images/image-20221221001412449.png)
+![image-20221221001412449](/assets/images/image-20221221001412449.png)
 
 Он космонавт и учёный.
 
@@ -399,7 +419,7 @@
 
 ### Homework
 
-![image-20221221001951298](./assets/images/image-20221221001951298.png)
+![image-20221221001951298](/assets/images/image-20221221001951298.png)
 
 Бабушка Соня
 
@@ -411,3 +431,56 @@
 - Full lesson
 - Dictionaries
 - Что ?
+
+
+
+## Day 5 verbs
+
+### Conjugation - 动词变位
+
+#### Infinitive - 动词不定式
+
+以ть结尾
+
+- to be - Быть
+
+|       | Читать                 | 例：Работать  |
+| :---- | :--------------------- | :------------ |
+| Я     | Чита**<u>ю</u>**       | Работаю       |
+| Ты/Вы | Чита**<u>ешь</u>**     | Работаешъ     |
+| Он    | ┓                      | ┓             |
+| Она   | ┣	Чита**<u>ет</u>** | ┣	Работает |
+| Оно   | ┛                      | ┛             |
+| Они   | Чита**<u>ют</u>**      |               |
+| Мы    | Чита**<u>ем</u>**      | Работаем      |
+| ВЫ    | Чита**<u>ете</u>**     | Работаете     |
+
+- Играть
+- Делать
+- Гулять
+- Знать
+- Болеть
+
+
+
+![image-20221221234938426](/assets/images/image-20221221234938426.png)
+
+- Кто это ?
+  - Это Владинир.
+- Кто он ?
+  - Он президент.
+- Что он делает ? 
+  - Он Читает и знает.
+
+
+
+![image-20221221235534871](/assets/images/image-20221221235534871.png)
+
+- Том и Джерри
+  - Они кот и мышь
+- Что они делают ? 
+
+### Homework
+
+1. learn + master
+2. [Telegram](http://t.me/realrussianclub) 
