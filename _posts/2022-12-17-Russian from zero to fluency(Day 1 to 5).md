@@ -1,5 +1,5 @@
 ---
-title: Russian from zero to fluency
+title: Russian from zero to fluency(Day 1 to 5)
 date: 2022-12-17
 tags: Russian
 ---
@@ -157,22 +157,16 @@ tags: Russian
 
    - **<u>Я</u>**майка (Jamaican)
 
-
 ### Voiced and unvoiced
 
-#### Voieced - Unvoiced
-
-- Б -  П
-
-- В - Ф
-
-- Г - К
-
-- Д - Т
-
-- Ж - Ш
-
-- З - С
+| Voieced | Unvoiced |
+| ------- | -------- |
+| Б       | П        |
+| В       | Ф        |
+| Г       | К        |
+| Д       | Т        |
+| Ж       | Ш        |
+| З       | С        |
 
 #### Voiced to unvoiced
 
@@ -187,14 +181,12 @@ tags: Russian
    - Водка ("д" is before "к", so "д" should turns to "т")
    - Вторитк ("В" is before "т", so "В" should turns to "Ф")
    
-   
 - 概括：清前词尾浊变清 
 
 #### Unvoiced to voiced
 
 1. if "п、ф、к、т、ш、с" is before voiced letter (expect "в、л、м、н、р、й"), it should turns to voiced.
    - Вокзал ("к" is before "з", so "к" should turns to "г")
-   
    
 
 ###  Vocabulary

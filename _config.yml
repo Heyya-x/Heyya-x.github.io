@@ -122,7 +122,7 @@ tag_archive:
   type: liquid
   path: /tags/
 atom_feed:
-  hide: true
+  hide: false
 
 # breadcrumbs: true
 # breadcrumb_home_label: "Home"
