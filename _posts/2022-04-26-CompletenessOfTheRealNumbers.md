@@ -179,7 +179,9 @@ $$
 
 对 $\varepsilon = 1$，在 $(a-1,a+1)$ 中含有点 $y_1 \in E$，则存在数列中的某项 $a_{n_1} = y_1$，从而 $a_{n_1} \in (a-1,a+1)$.
 
-对 $\varepsilon = \dfrac{1}{2}$，在 $(a-\dfrac{1}{2},a+\dfrac{1}{2})$ 中含有 $E$ 中的无限多个点，则存在某点 $y_2 \in E \cap\{a_1,a_2,\cdots,a_{n_1}\}$，使 $y_2 = a_{n_2}$，且 $n_2 > n_1$. 依次下去，设已取到 $\{a_n\}$ 中的 $k$ 个点，满足 $n_k > \cdots > n_2 > n_1$，且 $a_i \in (a - \dfrac{1}{i}, a + \dfrac{1}{i})$，$ i=1,2,\cdots, k$ . 此时 $(a-\dfrac{1}{k+1},a+\dfrac{1}{k+1})$中仍含有 $E$ 中无限多个点，则可取到 $a_{n_{k+1}}\in (a-\dfrac{1}{k+1},a+\dfrac{1}{k+1})\cap(E \backslash\{a1,a2,\cdots,a_{n_k}\})$，使得 $y_{k+1} = a_{n_{k+1}}$，且 $n_k < n_{k+1}$，如此下去，可得到 $\{a_n\}$ 的子列 $\{a_{n_k}\}$ ，使得 $a_{n_k} \in (a-\dfrac{1}{k},a+\dfrac{1}{k})$，$k=1,2,\cdots$.
+对 $\varepsilon = \dfrac{1}{2}$，在 $(a-\dfrac{1}{2},a+\dfrac{1}{2})$ 中含有 $E$ 中的无限多个点，则存在某点 $y_2 \in E \cap\{a_1,a_2,\cdots,a_{n_1}\}$，使 $y_2 = a_{n_2}$，且 $n_2 > n_1$. 依次下去，设已取到 $\{a_n\}$ 中的 $k$ 个点，满足 $n_k > \cdots > n_2 > n_1$，且 $a_i \in (a - \dfrac{1}{i}, a + \dfrac{1}{i})$，$ i=1,2,\cdots, k$ . 此时 $(a-\dfrac{1}{k+1},a+\dfrac{1}{k+1})$中仍含有 $E$ 中无限多个点，则可取到 
+$$a_{n_{k+1}}\in (a-\dfrac{1}{k+1},a+\dfrac{1}{k+1})\cap(E \backslash\{a1,a2,\cdots,a_{n_k}\})$$，
+使得 $y_{k+1} = a_{n_{k+1}}$，且 $n_k < n_{k+1}$，如此下去，可得到 $\{a_n\}$ 的子列 $\{a_{n_k}\}$ ，使得 $a_{n_k} \in (a-\dfrac{1}{k},a+\dfrac{1}{k})$，$k=1,2,\cdots$.
 
 即 $\lim \limits_{k\to\infty} a_{n_k} =a$. $\blacksquare$ 
 

@@ -2,6 +2,7 @@
 title: 树状数组
 date: 2021-11-24 23:41:42
 tags: [Data Structure, Fenwick]
+mathjax: true
 ---
 > 仅记录了树状数组一些操作。
 >
