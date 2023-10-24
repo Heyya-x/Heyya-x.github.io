@@ -185,6 +185,52 @@ $$
 
 ## 7. 致密性定理 $\Rightarrow$ 柯西收敛准则
 
+**Theorem（柯西收敛准则）** 数列 $\{a_n\}$ 收敛的充要条件是 $\forall \varepsilon > 0$，$\exists N \in \mathbb{N}^+$，$\forall n, m > N$，有 $\vert a_n - a_m \vert < \varepsilon.$
 
+**Proof** 必要性显然. 下证充分性：
+
+取 $\varepsilon_0 = 1$，则 $\exists N \in \mathbb{N}$，取 $m = N + 1$，$  \forall n > N$，有 $\vert a_n - a_m \vert < 1$.
+
+又 $\vert a_n \vert = \vert (a_n - a_m) + a_m)\vert $ $\leq$ $ \vert a_n - a_m \vert + \vert a_m \vert < \vert a_m \vert + 1$ ，取 $M = max\{ \vert a_1 \vert , \vert a_2 \vert , \cdots, \vert a_N \vert , \vert a_m \vert + 1 \}$，则对于一切 $n$，都有 $\vert a_n \vert \leq M$ ，由致密性定理，有界数列 $\{ a_n \}$ 必定有收敛的子列，不妨设为 $a_{n_k}$，且 $\displaystyle \lim_{k \to \infty} a_{n_k} = A$，则 $\forall \varepsilon > 0$，$\exists N' > 0$，使得当 $n', m', k' > N$ 时，有 $\vert a_{n'} - a_{m'} \vert < \frac{\varepsilon}{2}$，$\vert a_{n_{k'} - A}\vert < \frac{\varepsilon}{2}$，当 $m' = k'$ 时，有 $\vert a_{n'} - A\vert \leq \vert a_{n'} - a_{m'}\vert + \vert a_{m'} - a_{k'}\vert \leq \varepsilon$ ，即 $\displaystyle \lim_{n \to \infty} a_n = A$ .
 
 ## 8. 柯西收敛准则 $\Rightarrow$ 确界原理
+
+确界原理前面以及叙述过了，证明思路：由实数的阿基米德性构造一个收敛的上界的数列，再证明数列的极限就是该有界集合的上确界。下面给出证明：
+
+**Proof** 设 $ S $ 为非空有上界的数集. 由实数的阿基米德性，对于任意的 $a \in S$ ，存在 $ k_a \in \mathbb{N}$，使得  $\lambda_a = k_aa$ 为 $ S $ 的上界，而 $ \lambda_a - a = (k_a - 1)a$ 不是 $ S$ 的上界，即存在 $a' \in S$，使得 $a' > \lambda_a$.
+
+分别取 $a_n = \frac{1}{n}$， $n = 1, 2, \dots$ ，则对于每一个正整数 $n$，存在一个对应的 $\lambda_n$，使得 $\lambda_a$ 为$ S$ 的上界，而 $ \lambda_a - \frac{1}{n} $ 不是 $ S$ 的上界，故对任意的 $a_n' \in S$ ，有 $a_n' > \lambda_n - \frac{1}{n}$.
+
+又对于正整数 $m$ ，$\lambda_m$ 是 $S$ 的上界，故有 $\lambda_m \geq a_n'$ ，从而
+
+$$ \lambda_n - \lambda_m < \frac{1}{n}$$ ，
+
+同理有
+
+$$ \lambda_m - \lambda_n < \frac{1}{m}$$ ，
+
+从而有
+
+$$\vert \lambda_n - \lambda_m \vert < max\{\frac{1}{n},\frac{1}{m}\}$$，
+
+于是，对于任给的 $\varepsilon > 0$，存在 $N > 0$，使得当 $n,m > N$ 时，有
+
+$$\vert \lambda_n - \lambda_m \vert < \varepsilon$$，
+
+由柯西收敛准则，数列 $\{\lambda_n\}$ 收敛，记作 $\displaystyle \lim_{n \to \infty} \lambda_n = \lambda$ .
+
+下证 $ \lambda$ 就是 $S$ 的上确界.
+
+ 首先，对于任意的 $a\in S$ 和正整数 $n$，都有 $a \leq \lambda_n$，从而 $a \leq \lambda$，即 $a$ 是 $ S$ 的上界. 其次，对任何 $\delta > 0$ ，由及 $\displaystyle \lim_{n \to \infty} \lambda_n = \lambda$ ，对充分大的 $n$，同时有
+
+$$\frac{1}{n} < \frac{\delta}{2}，\lambda_n > \lambda - \frac{\delta}{2}$$
+
+而 $\lambda_n - \frac{1}{n}$ 不是$ S$ 的上界，故存在 $a' \in S$，使得 
+
+$$a' > \lambda_n - \frac{1}{n}$$，
+
+于是有
+
+$$a' > \lambda_n - \frac{1}{n} > \lambda - \frac{\delta}{2} > \lambda - \delta$$，
+
+即 $\lambda$ 为 $S$ 的上确界. 
