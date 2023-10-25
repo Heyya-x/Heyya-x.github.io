@@ -60,7 +60,8 @@ plugins:
   - jekyll-include-cache
 
 header:
-  overlay_image: "/assets/images/big-sur-road.jpg"
+  #overlay_image: "/assets/images/big-sur-road.jpg"
+  overlay_image: "/assets/images/silver.jpeg"
 
 author:
   name   : "Heyya"
